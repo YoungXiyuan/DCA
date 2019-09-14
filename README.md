@@ -1,8 +1,9 @@
 ## DCA
 DCA provides global entity linking models featuring:
 
-*Efficiency: Comparing to global entity linking models, DCA only requires one pass through all mentions, yielding better efficiency in inference.
-*Portability: DCA can introduce topical coherence into local linking models without reshaping their original designs or structures.
+-Efficiency: Comparing to global entity linking models, DCA only requires one pass through all mentions, yielding better efficiency in inference.
+
+-Portability: DCA can introduce topical coherence into local linking models without reshaping their original designs or structures.
 
 Details about DCA can be accessed at: https://arxiv.org/abs/1909.02117.
 

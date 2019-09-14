@@ -1,5 +1,10 @@
 ## DCA
-This repository contains a Python implementation used in the EMNLP 2019 paper "Learning Dynamic Context Augmentation for Global Entity Linking" by Xiyuan Yang et al.
+DCA provides global entity linking models featuring:
+
+*Efficiency: Comparing to global entity linking models, DCA only requires one pass through all mentions, yielding better efficiency in inference.
+*Portability: DCA can introduce topical coherence into local linking models without reshaping their original designs or structures.
+
+Details about DCA can be accessed at: https://arxiv.org/abs/1909.02117.
 
 This implementation refers to the project structure of [mulrel-nel](https://github.com/lephong/mulrel-nel).
 

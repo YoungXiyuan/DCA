@@ -61,10 +61,10 @@ Supervised Learning: python main.py --mode train --order offset --model_path mod
 Reinforcement Learning: python main.py --mode train --order offset --model_path model --method RL
 
 ## Citation
-If you find the implementation useful, please cite the following paper: [Learning Dynamic Context Augmentation for Global Entity Linking](https://arxiv.org/abs/1909.02117)
+If you find the implementation useful, please cite the following paper: [Learning Dynamic Context Augmentation for Global Entity Linking](https://arxiv.org/abs/1909.02117).
 
 ```
-@article{yang2019learning,
+@inproceedings{yang2019learning,
   title={Learning Dynamic Context Augmentation for Global Entity Linking},
   author={Yang, Xiyuan and Gu, Xiaotao and Lin, Sheng and Tang, Siliang and Zhuang, Yueting and Wu, Fei and Chen, Zhigang and Hu, Guoping and Ren, Xiang},
   booktitle = {EMNLP},

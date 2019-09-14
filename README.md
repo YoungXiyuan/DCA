@@ -46,9 +46,9 @@ tok_top_n4inlink: the number of inlinks for a Wikipedia page (entity) would be c
 
 tok_top_n4ent: the number of inlinks for a Wikipedia page (entity) would be added into the dynamic context.
 
-isDynamic: 2-hop DCA / 1-hop DCA / without DCA. Corresponding to the Table 4 in our paper.
+isDynamic: 2-hop DCA / 1-hop DCA / without DCA. Corresponding to the experiments of Table 4 in our paper.
 
-dca_method: soft+hard attention / soft attention / average sum. Corresponding to the Table 5 in our paper.
+dca_method: soft+hard attention / soft attention / average sum. Corresponding to the experiments of Table 5 in our paper.
 ```
 
 ## Running

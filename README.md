@@ -1,9 +1,9 @@
 ## DCA
 DCA (Dynamic Context Augmentation) provides global entity linking models featuring:
 
-- **Efficiency** __Strong__: Comparing to global entity linking models, DCA only requires one pass through all mentions, yielding better efficiency in inference.
+- **Efficiency**: Comparing to global entity linking models, DCA only requires one pass through all mentions, yielding better efficiency in inference.
 
-- **Portability** __Strong__: DCA can introduce topical coherence into local linking models without reshaping their original designs or structures.
+- **Portability**: DCA can introduce topical coherence into local linking models without reshaping their original designs or structures.
 
 Details about DCA can be accessed at: https://arxiv.org/abs/1909.02117.
 

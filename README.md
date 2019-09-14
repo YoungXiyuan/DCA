@@ -36,6 +36,8 @@ Requirements: Python 3.5 or 3.6, Pytorch 0.3, CUDA 7.5 or 8
 ```
 mode: train or eval mode.
 
+method: training method, Supervised Learning (SL) or Reinforcement Learning (RL)
+
 order: three decision orders -- offset / size / random. Please refer to our paper for their concrete definition.
 
 n_cands_before_rank: the number of candidates, the default value is 30.

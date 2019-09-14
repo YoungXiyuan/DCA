@@ -20,13 +20,13 @@ This implementation refers to the project structure of [mulrel-nel](https://gith
 ## Data
 Download [data](https://drive.google.com/file/d/1xW-t80cKDMx3ZL-hrRUxlm6QMZIRvUyU/view) from here and unzip to the main folder (i.e. your-path/DCA). 
 
-This data archive contains the following resource files:
+The above data archive contains the following resource files:
 
-- **Dataset**: One in-domain dataset (AIDA-CoNLL) and Five cross-domain datasets (MSNBC/AQUAINT/ACE2004/CWEB/WIKI). These datasets share the same data format.
+- **Dataset**: One in-domain dataset (AIDA-CoNLL) and Five cross-domain datasets (MSNBC / AQUAINT / ACE2004 / CWEB / WIKI). And these datasets share the same data format.
 
-- **Type Embedding**: Used to compute type similarity between mention-entity pairs. These type embedding are trained by a typing system called [NFETC](https://arxiv.org/abs/1803.03378) model.
+- **Type Embedding**: Adopted to compute type similarity between mention-entity pairs. We trained these type embedding using a typing system called [NFETC](https://arxiv.org/abs/1803.03378) model.
 
-- **Wikipedia inLinks and outLinks**: Surface names of inlinks and outlinks for a Wikipedia page (entity) are used to construct **dynamic context**.
+- **Wikipedia inLinks and outLinks**: Surface names of inlinks and outlinks for a Wikipedia page (entity) are used to construct **dynamic context** in our model learning process.
 
 
 ## Installation

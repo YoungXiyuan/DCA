@@ -5,6 +5,11 @@ DCA (Dynamic Context Augmentation) provides global entity linking models featuri
 
 - **Portability**: DCA can introduce topical coherence into local linking models without reshaping their original designs or structures.
 
+Remarkablely, our DCA models (trained by supervised learning or reinforcement learning) achieved:
+
+- **94.64%** in-KB acc. on AIDA-CONLL testset (AIDA-B).
+- **94.57%** F1 score on MSBNC dataset and **90.14%** F1 score on ACE2004 dataset.
+
 Details about DCA can be accessed at: https://arxiv.org/abs/1909.02117.
 
 This implementation refers to the project structure of [mulrel-nel](https://github.com/lephong/mulrel-nel).

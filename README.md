@@ -20,7 +20,7 @@ This implementation refers to the project structure of [mulrel-nel](https://gith
 ## Data
 Download [data](https://drive.google.com/file/d/1xW-t80cKDMx3ZL-hrRUxlm6QMZIRvUyU/view) from here and unzip to the main folder (i.e. your-path/DCA). 
 
-The above data archive contains the following resource files:
+The above data archive mainly contains the following resource files:
 
 - **Dataset**: One in-domain dataset (AIDA-CoNLL) and Five cross-domain datasets (MSNBC / AQUAINT / ACE2004 / CWEB / WIKI). And these datasets share the same data format.
 
@@ -28,12 +28,16 @@ The above data archive contains the following resource files:
 
 - **Wikipedia inLinks and outLinks**: Surface names of inlinks and outlinks for a Wikipedia page (entity) are used to construct **dynamic context** in our model learning process.
 
-
 ## Installation
-
 Requirements: Python 3.5 or 3.6, Pytorch 0.3, CUDA 7.5 or 8
 
-## Usage
+## Important Parameters
+```
+mode: train or eval
+order: three decision orders, that is, 1) *Offset* links all mentions by their natural orders in the original documen
+```
+
+## Running
 cd DCA
 
 export PYTHONPATH=$PYTHONPATH:../

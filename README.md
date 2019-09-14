@@ -56,6 +56,6 @@ cd DCA
 
 export PYTHONPATH=$PYTHONPATH:../
 
-SL: python mulrel_ranker.py --mode train --order offset --model_path model --method SL
+Supervised Learning: python mulrel_ranker.py --mode train --order offset --model_path model --method SL
 
-RL: python mulrel_ranker.py --mode train --order offset --model_path model --method RL
+Reinforcement Learning: python mulrel_ranker.py --mode train --order offset --model_path model --method RL

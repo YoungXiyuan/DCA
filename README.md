@@ -67,7 +67,7 @@ If you find the implementation useful, please cite the following paper: [Learnin
 @inproceedings{yang2019learning,
   title={Learning Dynamic Context Augmentation for Global Entity Linking},
   author={Yang, Xiyuan and Gu, Xiaotao and Lin, Sheng and Tang, Siliang and Zhuang, Yueting and Wu, Fei and Chen, Zhigang and Hu, Guoping and Ren, Xiang},
-  booktitle = {EMNLP},
+  booktitle = {Proceedings of EMNLP-IJCNLP},
   year={2019}
 }
 ```

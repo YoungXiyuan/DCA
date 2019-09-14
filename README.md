@@ -14,6 +14,8 @@ Details about DCA can be accessed at: https://arxiv.org/abs/1909.02117.
 
 This implementation refers to the project structure of [mulrel-nel](https://github.com/lephong/mulrel-nel).
 
+## Overall Workflow
+
 ## Data
 Download [data](https://drive.google.com/file/d/1xW-t80cKDMx3ZL-hrRUxlm6QMZIRvUyU/view) from here and unzip to the main folder (i.e. your-path/DCA). 
 

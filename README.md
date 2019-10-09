@@ -18,7 +18,7 @@ This implementation refers to the project structure of [mulrel-nel](https://gith
 ![Alt Text](https://github.com/YoungXiyuan/DCA/blob/master/DCA.gif)
 
 ## Data
-Download [data](https://drive.google.com/file/d/1xW-t80cKDMx3ZL-hrRUxlm6QMZIRvUyU/view) from here and unzip to the main folder (i.e. your-path/DCA). 
+Download [data](https://drive.google.com/open?id=1MfjzjZH_KKsXshtepzSBwkvjabdEytzh) from here and unzip to the main folder (i.e. your-path/DCA). 
 
 The above data archive mainly contains the following resource files:
 
@@ -27,6 +27,8 @@ The above data archive mainly contains the following resource files:
 - **Type Embedding**: Adopted to compute type similarity between mention-entity pairs. We trained these type embedding using a typing system called [NFETC](https://arxiv.org/abs/1803.03378) model.
 
 - **Wikipedia inLinks**: Surface names of inlinks for a Wikipedia page (entity) are used to construct **dynamic context** in our model learning process.
+
+- **Entity Description**: Wikipedia page contents (entity description) are used by one of our base model -- [Berkeley-CNN](https://www.aclweb.org/anthology/N16-1150/)
 
 ## Installation
 Requirements: Python 3.5 or 3.6, Pytorch 0.3, CUDA 7.5 or 8

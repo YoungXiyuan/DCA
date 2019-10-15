@@ -42,7 +42,7 @@ method: training method, Supervised Learning (SL) or Reinforcement Learning (RL)
 
 order: three decision orders -- offset / size / random. Please refer to our paper for their concrete definition.
 
-n_cands_before_rank: the number of candidates, the default value is 30.
+n_cands_before_rank: the number of candidates.
 
 tok_top_n4inlink: the number of inlinks for a Wikipedia page (entity) would be considered as candidates for the dynamic context.
 

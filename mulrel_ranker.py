@@ -292,7 +292,7 @@ class MulRelRanker(LocalCtxAttRanker):
             # input()
 
             # Typing Feature
-            inputs = torch.cat([sim[indx].view(n_cands, -1),
+            inputs = torch.cat([sim[indx].view(n_cands, -1) if not basemodel == 'deeped' else local_ent_scores[indx].view(n_cands, -1),
                                 #local_ent_scores[indx].view(n_cands, -1),
                                 torch.log(p_e_m[indx] + 1e-20).view(n_cands, -1), ent_coherence.view(n_cands, -1),
                                 tm[indx].view(n_cands, -1),

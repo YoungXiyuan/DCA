@@ -14,6 +14,9 @@ Details about DCA can be accessed at: https://arxiv.org/abs/1909.02117.
 
 This implementation refers to the project structure of [mulrel-nel](https://github.com/lephong/mulrel-nel). 
 
+
+Written and maintained by Sheng Lin (shenglin@zju.edu.cn) and Xiyuan Yang (yangxiyuan@zju.edu.cn).
+
 ## Overall Workflow
 ![Alt Text](https://github.com/YoungXiyuan/DCA/blob/master/DCA.gif)
 
